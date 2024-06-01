@@ -13,9 +13,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ue#xuxb^k3q#-ri0edr0jvi*q7y4$ds*q=+tlksob!s!p^!c86'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['.azurewebsites.net', '20.173.112.24', 'pceee.co.ke', 'www.pcee.co.ke']
+ALLOWED_HOSTS = ['.azurewebsites.net', '20.173.112.24', 'pcee.co.ke', 'www.pcee.co.ke']
 
 
 # Application definition
